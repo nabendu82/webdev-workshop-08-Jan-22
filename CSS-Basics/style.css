@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap');
+
+body{
+    background-color: #cebdec;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background-color:lightgoldenrodyellow;
+    padding: 10px;
+}
+
+h1{
+    background-color: aquamarine;
+    color: brown;
+    padding: 10px;  
+}
+
+h3{
+    color: rgb(168, 55, 14);
+}
+
+/* div{
+    font-size: 10px;
+} */
+
+p{
+    color: hsl(61, 88%, 17%);
+    font-family: 'Vujahday Script', helvetica, sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8em;
+}
+
+#second-p{
+    color: hsl(318, 87%, 12%);
+    font-family: Arial, helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: normal;
+    line-height: 1.4em;
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.button{
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 0;
+    border-radius: 10px;
+    background: darkmagenta;
+    color: white;
+}
+
+.button:hover{
+    background: darkblue;
+    cursor: pointer;
+}
